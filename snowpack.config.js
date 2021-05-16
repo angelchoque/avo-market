@@ -5,6 +5,6 @@ module.exports = {
     src: '/_dist_',
   },
   buildOptions: {
-    baseUrl: 'https://angelchoque.github.io/avo-market/',
+    baseUrl: 'https://angelchoque.github.io/avo-market',
   },
 }
