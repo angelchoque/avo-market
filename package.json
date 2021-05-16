@@ -1,5 +1,5 @@
 {
-  "homepage": "https://angelchoque.github.io/avo-market",
+  "homepage": "https://angelchoque.github.io/avo-market/",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
