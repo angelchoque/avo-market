@@ -1,0 +1,37 @@
+@import 'tailwindcss/dist/base.css';
+@import 'tailwindcss/dist/components.css';
+@import 'tailwindcss/dist/utilities.css';
+
+#app{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 110px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 20px;
+    /* flex-wrap: wrap; */
+}
+.item-container:hover{
+    background-color: rgb(189, 204, 245);
+    transition: .5s;
+}
+.container__img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.container__title{
+    padding: 5px 10px;
+    font-weight: bold;
+}
